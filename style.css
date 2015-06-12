@@ -6,7 +6,7 @@
 .overflow {
 	overflow: auto;
 }
-.contactinfo {
+.contactinfo, .experience {
 	font-family: "Slabo 27px", serif;
 	color: white;
 	font-size: 18px;
@@ -34,17 +34,12 @@
 .jumbotron p {
 	text-indent: 2em;
 }
-.experience {
-	font-family: 'Slabo 27px', serif;
-	font-size: 16px;
-	color: white;
-	background-color: black;
-	width: 100%;
-	margin: 0px;
-	border: solid black;
-}
-.experience h1 {
+.experience  h1, h3 {
 	text-align: center;
+}
+.experience h2 {
+	text-align: center;
+	text-decoration: underline;
 }
 .experience a {
 	color: white;
@@ -55,6 +50,27 @@
 }
 .experience a:hover {
 	color: blue;
+}
+.experiencetabs {
+	text-align: center;
+	}
+.exptabs-content .tab-pane {
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+}
+.exptabs-content .active{
+	display: inline;
+	visibility: visible;
+	position:absolute;
+	width: 100%;
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	width: 100%;
+	margin: 0px;
+	border: solid black;
 }
 .certification {
 	font-family: 'Roboto Condensed', sans-serif;
