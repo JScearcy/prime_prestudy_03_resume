@@ -64,6 +64,8 @@
 	display: inline-block;
 	vertical-align: bottom;
 	font-size: 15px;
+	background-color: #7575A3;
+	border: solid black;
 	width: 25%;
 	text-align: center;
 	}
@@ -83,7 +85,7 @@
 	background-color: black;
 	width: 100%;
 	margin: 0px;
-	border: solid black;
+	border: none;
 }
 .certification  {
 	font-family: 'Roboto Condensed', sans-serif;
