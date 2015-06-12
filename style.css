@@ -31,6 +31,8 @@ body {
 	width: 100%;
 	margin: 0px;
 	background-color: #7575A3;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .jumbotron h1{
 	text-align: center;
