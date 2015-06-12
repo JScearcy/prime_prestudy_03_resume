@@ -26,6 +26,9 @@
 .opening h1{
 	text-align: center;
 }
+.opening p {
+	text-indent: 2em;
+}
 .experience {
 	font-family: 'Slabo 27px', serif;
 	font-size: 16px;
