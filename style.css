@@ -41,6 +41,9 @@
 	text-align: center;
 	text-decoration: underline;
 }
+.experience h3 {
+	font-size: 14px;
+}
 .experience a {
 	color: white;
 	text-decoration: none;
@@ -52,6 +55,16 @@
 	color: blue;
 }
 .experiencetabs {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+	}
+.experiencetabs #firsttab, #secondtab, #thirdtab, #fourthtab {
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 15px;
+	width: 25%;
 	text-align: center;
 	}
 .exptabs-content .tab-pane {
