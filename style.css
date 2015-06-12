@@ -1,7 +1,44 @@
-.name {
-	font-family: "Open Sans", sans-serif;
-	color: green;
-	font-size: 28px;
-	position: left;
-	position: right;
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.overflow {
+	overflow: auto;
+}
+.contactinfo {
+	font-family: "Slabo 27px", serif;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	background-color: black;
+	width: 90%;
+	margin: auto;
+	border: solid black;
+}
+
+.opening {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	width: 90%;
+	margin: auto; 
+}
+.opening h1{
+	text-align: center;
+}
+.experience {
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	width: 90%;
+	margin: auto;
+	border: solid black;
+}
+.experience a {
+	color: white;
+	text-decoration: none;
+}
+.experience a:hover {
+	color: blue;
 }
