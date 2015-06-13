@@ -5,6 +5,7 @@
 }
 body {
 	background-color: black;
+	width: 98%;
 }
 .overflow {
 	overflow: auto;
