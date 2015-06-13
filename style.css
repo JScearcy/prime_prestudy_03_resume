@@ -121,6 +121,10 @@ body {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+.projects .typeheader {
+	font-size: 17px;
+	font-weight: bold;
+}
 .projects .certs h1 {
 	text-align: center;
 }
