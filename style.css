@@ -32,7 +32,7 @@ body {
 	color: black;
 	width: 100%;
 	margin: 0px;
-	background-color: #7575A3;
+	background-color: white;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 5px;
@@ -101,7 +101,7 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	width: 100%;
-	background-color: white;
+	background-color: #7575A3;
 }
 .certification .edu, .skills {
 	display: inline-block;
@@ -117,7 +117,7 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	color: black;
-	background-color: #7575A3;
+	background-color: white;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
