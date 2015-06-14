@@ -47,6 +47,7 @@ h1, h2, h3 {
 }
 .summary p {
 	text-indent: 2em;
+	margin-bottom: 0px;
 }
 .experience  h1, h3 {
 	text-align: center;
