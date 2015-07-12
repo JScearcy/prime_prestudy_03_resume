@@ -43,11 +43,8 @@ header h1, p {
 	text-align: center;
 	margin: 0px;
 }
-
-}
 .summary p {
 	text-indent: 2em;
-	margin-bottom: 0px;
 }
 .experience  h1, h3 {
 	text-align: center;
@@ -110,6 +107,9 @@ header h1, p {
 	width: 100%;
 	background-color: #7575A3;
 }
+.certification h1 {
+	margin: 5px;
+}
 .certification .edu, .skills {
 	display: inline-block;
 	vertical-align: top;
@@ -128,6 +128,9 @@ header h1, p {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+.projects h1 {
+	margin: 0px;
+}
 .projects .typeheader {
 	font-size: 17px;
 	font-weight: bold;
@@ -135,4 +138,3 @@ header h1, p {
 .projects .certs h1 {
 	text-align: center;
 }
-
