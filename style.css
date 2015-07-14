@@ -28,7 +28,7 @@ header h1, h2, p {
 	margin: 15px 0 0 15px;
 	line-height: 25px;
 }
-.summary {
+section {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	color: black;
@@ -39,11 +39,11 @@ header h1, h2, p {
 	padding-right: 10px;
 	padding-left: 15px;
 }
-.summary h2{
+section h2{
 	text-align: center;
 	margin: 0px;
 }
-.summary p {
+section p {
 	text-indent: 2em;
 }
 .experience  h2, h4 {
