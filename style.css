@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+	background-color: black;
+	width: 99.9%;
+}
+header, .experience {
+	font-family: "Slabo 27px", serif;
+	color: white;
+	font-size: 18px;
+	background-color: black;
+	height: 100%
+	width: 100%;
+	margin: 0px;
+	border: solid black;
+}
+header h1, h2 {
+	font-weight: bold;
+}
+header img {
+	width: 155px;
+	height: 212px;
+}
+header h1, h2, p {
+	margin: 15px 0 0 15px;
+	line-height: 25px;
+}
+.summary {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 15px;
+}
+.summary h2{
+	text-align: center;
+	margin: 0px;
+}
+.summary p {
+	text-indent: 2em;
+}
+.experience  h2, h4 {
+	text-align: center;
+}
+.experience h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+.experience h4 {
+	font-size: 14px;
+}
+.experience a {
+	color: white;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+.experience p {
+	font-weight: bold;
+}
+.experience a:hover {
+	color: blue;
+}
+.experiencetabs {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	text-align: center;
+	}
+.experiencetabs #firsttab, #secondtab, #thirdtab, #fourthtab {
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 15px;
+	background-color: #7575A3;
+	border: solid black;
+	width: 25%;
+	text-align: center;
+	}
+.exptabs-content .tab-pane {
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+}
+.exptabs-content .active{
+	display: inline;
+	visibility: visible;
+	position:absolute;
+	width: 100%;
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	width: 100%;
+	margin: 0px;
+	border: none;
+}
+.certification  {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+	width: 100%;
+	background-color: #7575A3;
+}
+.certification h2 {
+	margin: 5px;
+}
+.certification .edu, .skills {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	width: 48%;
+	padding-left: 100px;
+}
+
+.projects {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.projects h2 {
+	margin: 0px;
+}
+.projects .typeheader {
+	font-size: 17px;
+	font-weight: bold;
+}
+.projects .certs h2 {
+	text-align: center;
+}
