@@ -8,11 +8,11 @@ var main = function() {
 	$('.exptabs-content .active').css('visibility', 'hidden');
 	$('button').click(function() {
 		$(this).remove();
-		$('header').slideDown(200);
-		$('.summary').slideDown(300);
-		$('.certification').slideDown(400);
+		$('header').slideDown(500);
+		$('.summary').slideDown(500);
+		$('.certification').slideDown(500);
 		$('.projects').slideDown(500);
-		$('.experience').slideDown(600, function() {
+		$('.experience').slideDown(500, function() {
 			$('.exptabs-content .active').css('visibility', 'visible');
 		})
 	})
