@@ -7,18 +7,6 @@ body {
 	background-color: black;
 	width: 99.9%;
 }
-button {
-	visibility: visible;
-	width: 300px;
-	height: 100px;
-	margin: 20px 50px;
-	color: #000;
-	background-color: #AA2211;
-}
-.visible {
-	visibility: visible;
-}
-
 header, .experience {
 	font-family: "Slabo 27px", serif;
 	color: white;
