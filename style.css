@@ -5,8 +5,32 @@
 }
 body {
 	background-color: black;
-	width: 99.9%;
 }
+button {
+	position: relative;
+	display: block;
+	font-size: 30px;
+	width: 30%;
+	height: 100px;
+	margin: 0 auto 0 auto;
+	top: 100px;
+	border-color: #FFF;
+	background-color: #7575A3;
+	z-index: 2;
+}
+.second {
+	background-color: black;
+	color: #7575A3;
+}
+.walledgarden {
+	background-color: black;
+	opacity: .18;
+	z-index: 1;
+}
+.visible {
+	visibility: visible;
+}
+
 header, .experience {
 	font-family: "Slabo 27px", serif;
 	color: white;
